@@ -1,0 +1,11 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  // "compilerOptions": {
+  //   "baseUrl": ".", // 基础目录
+  //   "paths": { //  指定相对于 baseUrl 选项计算的路径映射, 别名路径也可以跳转
+  //     "@*": [
+  //       "src/*"
+  //     ]
+  //   }
+  // }
+}

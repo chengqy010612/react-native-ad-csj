@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_nb_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="2dp"
+        android:paddingLeft="13dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/btn_banner_download"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_below="@+id/btn_banner_landingpage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Banner广告(下载类)"
+        android:gravity="center"
+        android:textAllCaps="false"
+
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_banner_landingpage"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/btn_nb_back"
+        android:gravity="center"
+        android:text="Banner广告(落地页类)"
+        android:textAllCaps="false"
+        android:textSize="14sp"
+        />
+
+    <!-- BannerView的Container -->
+    <FrameLayout
+        android:id="@+id/banner_container"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#D5D5D5" />
+</RelativeLayout>
