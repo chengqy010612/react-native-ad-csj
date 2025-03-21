@@ -13,3 +13,7 @@ npm i
 npm run android
 ```
 
+
+
+![1](https://github.com/chengqy010612/react-native-ad-csj/blob/main/src/image/1.jpg)
+
